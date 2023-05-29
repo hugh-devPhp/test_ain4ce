@@ -13,17 +13,17 @@
     <!-- Place favicon.ico in the root directory -->
 
     <!-- CSS here -->
-    <link rel="stylesheet" href="../assetscorporate/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../assetscorporate/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="../assetscorporate/css/magnific-popup.css">
-    <link rel="stylesheet" href="../assetscorporate/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../assetscorporate/css/themify-icons.css">
-    <link rel="stylesheet" href="../assetscorporate/css/nice-select.css">
-    <link rel="stylesheet" href="../assetscorporate/css/flaticon.css">
-    <link rel="stylesheet" href="../assetscorporate/css/gijgo.css">
-    <link rel="stylesheet" href="../assetscorporate/css/animate.css">
-    <link rel="stylesheet" href="../assetscorporate/css/slicknav.css">
-    <link rel="stylesheet" href="../assetscorporate/css/style.css">
+    <link rel="stylesheet" href="../assets/corporate/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/corporate/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../assets/corporate/css/magnific-popup.css">
+    <link rel="stylesheet" href="../assets/corporate/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/corporate/css/themify-icons.css">
+    <link rel="stylesheet" href="../assets/corporate/css/nice-select.css">
+    <link rel="stylesheet" href="../assets/corporate/css/flaticon.css">
+    <link rel="stylesheet" href="../assets/corporate/css/gijgo.css">
+    <link rel="stylesheet" href="../assets/corporate/css/animate.css">
+    <link rel="stylesheet" href="../assets/corporate/css/slicknav.css">
+    <link rel="stylesheet" href="../assets/corporate/css/style.css">
 </head>
 
 <body>
@@ -36,9 +36,14 @@
                         <div class="col-xl-6 col-md-12 col-lg-8">
                             <div class="short_contact_list">
                                 <ul>
-                                    <li><a href="#"> <i class="fa fa-phone"></i> +225 074 820 27 33</a></li>
-                                    <li><a href="mailto:ain4ce@gmail.com"> <i
-                                                class="fa fa-envelope"></i>ain4ce@gmail.com</a></li>
+                                    <li>
+                                        <a href="#"> <i class="fa fa-phone"></i>
+                                            +225 074 820 27 33</a>
+                                    </li>
+                                    <li>
+                                        <a href="mailto:ain4ce@gmail.com"> <i class="fa fa-envelope"></i>
+                                            ain4ce@gmail.com</a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -60,8 +65,8 @@
                     <div class="row align-items-center">
                         <div class="col-xl-3 col-lg-3">
                             <div class="logo">
-                                <a href="accueil">
-                                    <img src="../assetscorporate/img/logo.png" alt="" class="" width="90">
+                                <a href="../index.html">
+                                    <img src="../assets/corporate/img/logo.png" alt="" class="" width="120">
                                 </a>
                             </div>
                         </div>
@@ -69,7 +74,7 @@
                             <div class="main-menu">
                                 <nav>
                                     <ul id="navigation">
-                                        <li><a href="">Accueil</a></li>
+                                        <li><a href="../index.html">Accueil</a></li>
                                         <li><a href="about.html">A propos</a></li>
                                         <li><a href="#">Actualités<i class="ti-angle-down"></i></a>
                                             <ul class="submenu">
@@ -77,7 +82,7 @@
                                                 <li><a href="events.html">Évènements</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="projet.html">Projets</a></li>
+                                        <li><a href="">Projets</a></li>
                                         <li><a href="contact.html">Contacts</a></li>
                                     </ul>
                                 </nav>
@@ -119,7 +124,7 @@
                 <div class="col-lg-12 col-md-12">
                     <div class="single_cause">
                         <div class="thumb">
-                            <img src="<?php echo base_url() ?>../assetsimg/causes/large_img.png" alt="">
+                            <img src="../assets/corporate/img/causes/large_img.png" alt="">
                         </div>
                         <div class="causes_content">
                             <div class="custom_progress_bar">
@@ -131,10 +136,6 @@
                                         </span>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="balance d-flex justify-content-between align-items-center">
-                                <span>Raised: $5000.00 </span>
-                                <span>Goal: $9000.00 </span>
                             </div>
                             <h4>Clothes For Everyone</h4>
                             <p>On the other hand, we denounce with righteous indignation and dislike men who are so
@@ -165,12 +166,13 @@
     <!-- popular_causes_area_end  -->
 
 
-    <div class="make_donation_area section_padding">
+    <div data-scroll-index='1' class="make_donation_area p-4">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="section_title text-center mb-55">
-                        <h3><span>Make a Donation</span></h3>
+                        <h3><span>Faire un don</span></h3>
+                        <p>Envoyez nous votre Email et vous serez contactez pour effectuer votre don.</p>
                     </div>
                 </div>
             </div>
@@ -178,36 +180,28 @@
                 <div class="col-lg-6">
                     <form action="#" class="donation_form">
                         <div class="row align-items-center">
-                            <div class="col-md-4">
+                            <div class="col-md-5">
                                 <div class="single_amount">
                                     <div class="input_field">
                                         <div class="input-group">
                                             <div class="input-group-prepend">
-                                                <span class="input-group-text" id="basic-addon1">$</span>
+                                                <span class="input-group-text" id="basic-addon1">FCFA</span>
                                             </div>
-                                            <input type="text" class="form-control" placeholder="40,200"
-                                                aria-label="Username" aria-describedby="basic-addon1">
+                                            <input type="number" class="form-control" placeholder="4000000"
+                                                aria-label="somme" aria-describedby="basic-addon1">
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-7">
                                 <div class="single_amount">
-                                    <div class="fixed_donat d-flex align-items-center justify-content-between">
-                                        <div class="select_prise">
-                                            <h4>Select Amount:</h4>
-                                        </div>
-                                        <div class="single_doonate">
-                                            <input type="radio" id="blns_1" name="radio-group" checked>
-                                            <label for="blns_1">10</label>
-                                        </div>
-                                        <div class="single_doonate">
-                                            <input type="radio" id="blns_2" name="radio-group" checked>
-                                            <label for="blns_2">30</label>
-                                        </div>
-                                        <div class="single_doonate">
-                                            <input type="radio" id="Other" name="radio-group" checked>
-                                            <label for="Other">Other</label>
+                                    <div class="input_field">
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text" id="basic-addon1">Email</span>
+                                            </div>
+                                            <input type="number" class="form-control" placeholder="nom@exemple.com"
+                                                aria-label="email" aria-describedby="basic-addon1">
                                         </div>
                                     </div>
                                 </div>
@@ -219,14 +213,13 @@
             <div class="row">
                 <div class="col-12">
                     <div class="donate_now_btn text-center">
-                        <a href="#" class="boxed-btn4">Donate Now</a>
+                        <a href="#" class="boxed-btn4">Envoyez</a>
                     </div>
                 </div>
 
             </div>
         </div>
     </div>
-
     <!-- footer_start  -->
     <footer class="footer">
         <div class="footer_top">
@@ -388,47 +381,47 @@
     <!-- footer_end  -->
 
     <!-- Javascript -->
-    <script src="../assetscorporate/plugins/popper.min.js"></script>
-    <script src="../assetscorporate/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/corporate/plugins/popper.min.js"></script>
+    <script src="assets/corporate/plugins/bootstrap/js/bootstrap.min.js"></script>
 
     <!-- FontAwesome JS-->
-    <script defer src="../assetscorporate/fontawesome/js/all.min.js"></script>
+    <script defer src="assets/corporate/fontawesome/js/all.min.js"></script>
 
     <!-- Page Specific JS -->
-    <script src="../assetscorporate/plugins/smoothscroll.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libsassets//highlight.js/9.15.8/highlight.min.js"></script>
-    <script src="../assetscorporate/js/highlight-custom.js"></script>
-    <script src="../assetscorporate/plugins/simplelightbox/simple-lightbox.min.js"></script>
-    <script src="../assetscorporate/plugins/gumshoe/gumshoe.polyfills.min.js"></script>
-    <script src="../assetscorporate/js/docs.js"></script>
+    <script src="assets/corporate/plugins/smoothscroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script src="assets/corporate/js/highlight-custom.js"></script>
+    <script src="assets/corporate/plugins/simplelightbox/simple-lightbox.min.js"></script>
+    <script src="assets/corporate/plugins/gumshoe/gumshoe.polyfills.min.js"></script>
+    <script src="assets/corporate/js/docs.js"></script>
 
     <!-- JS here -->
-    <script src="../assetscorporate/js/vendor/modernizr-3.5.0.min.js"></script>
-    <script src="../assetscorporate/js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="../assetscorporate/js/popper.min.js"></script>
-    <script src="../assetscorporate/js/bootstrap.min.js"></script>
-    <script src="../assetscorporate/js/owl.carousel.min.js"></script>
-    <script src="../assetscorporate/js/isotope.pkgd.min.js"></script>
-    <script src="../assetscorporate/js/ajax-form.js"></script>
-    <script src="../assetscorporate/js/waypoints.min.js"></script>
-    <script src="../assetscorporate/js/jquery.counterup.min.js"></script>
-    <script src="../assetscorporate/js/imagesloaded.pkgd.min.js"></script>
-    <script src="../assetscorporate/js/scrollIt.js"></script>
-    <script src="../assetscorporate/js/jquery.scrollUp.min.js"></script>
-    <script src="../assetscorporate/js/wow.min.js"></script>
-    <script src="../assetscorporate/js/nice-select.min.js"></script>
-    <script src="../assetscorporate/js/jquery.slicknav.min.js"></script>
-    <script src="../assetscorporate/js/jquery.magnific-popup.min.js"></script>
-    <script src="../assetscorporate/js/plugins.js"></script>
-    <script src="../assetscorporate/js/gijgo.min.js"></script>
+    <script src="assets/corporate/js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="assets/corporate/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="assets/corporate/js/popper.min.js"></script>
+    <script src="assets/corporate/js/bootstrap.min.js"></script>
+    <script src="assets/corporate/js/owl.carousel.min.js"></script>
+    <script src="assets/corporate/js/isotope.pkgd.min.js"></script>
+    <script src="assets/corporate/js/ajax-form.js"></script>
+    <script src="assets/corporate/js/waypoints.min.js"></script>
+    <script src="assets/corporate/js/jquery.counterup.min.js"></script>
+    <script src="assets/corporate/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/corporate/js/scrollIt.js"></script>
+    <script src="assets/corporate/js/jquery.scrollUp.min.js"></script>
+    <script src="assets/corporate/js/wow.min.js"></script>
+    <script src="assets/corporate/js/nice-select.min.js"></script>
+    <script src="assets/corporate/js/jquery.slicknav.min.js"></script>
+    <script src="assets/corporate/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/corporate/js/plugins.js"></script>
+    <script src="assets/corporate/js/gijgo.min.js"></script>
     <!--contact js-->
-    <script src="../assetscorporate/js/contact.js"></script>
-    <script src="../assetscorporate/js/jquery.ajaxchimp.min.js"></script>
-    <script src="../assetscorporate/js/jquery.form.js"></script>
-    <script src="../assetscorporate/js/jquery.validate.min.js"></script>
-    <script src="../assetscorporate/js/mail-script.js"></script>
+    <script src="assets/corporate/js/contact.js"></script>
+    <script src="assets/corporate/js/jquery.ajaxchimp.min.js"></script>
+    <script src="assets/corporate/js/jquery.form.js"></script>
+    <script src="assets/corporate/js/jquery.validate.min.js"></script>
+    <script src="assets/corporate/js/mail-script.js"></script>
 
-    <script src="../assetscorporate/js/main.js"></script>
+    <script src="assets/corporate/js/main.js"></script>
 </body>
 
 </html>
